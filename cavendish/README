@@ -1,3 +1,16 @@
+Usage
+-----
+
+require_once "$IP/skins/MonoBook/MonoBookTemplate.php";
+require_once "$IP/skins/Cavendish.php";
+
+wfLoadSkin('cavendish');
+
+$wgDefaultSkin = 'cavendish';
+
+Configuration
+-------------
+
 There are different options that can be set in cavendish/config.php
 
 $cavendishLogoURL

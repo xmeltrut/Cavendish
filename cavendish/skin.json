@@ -1,0 +1,26 @@
+{
+	"name": "Cavendish",
+	"url": "http://www.mediawiki.org/wiki/Skin:Cavendish",
+	"descriptionmsg": "cavendish-desc",
+	"namemsg": "skinname-cavendish",
+	"type": "skin",
+	"ValidSkinNames": {
+		"cavendish": "Cavendish"
+	},
+	"ResourceModules": {
+		"skins.cavendish.styles": {
+			"styles": {
+				"cavendish.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Cavendish"
+	},
+	"AutoloadClasses": {
+		"SkinCavendish": "Cavendish.php"
+	}
+}
